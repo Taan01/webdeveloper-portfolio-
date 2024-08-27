@@ -1,3 +1,4 @@
+/*common shared styles*/
 body{
     // <uniquifier>: Use a unique and descriptive class name
 
@@ -7,10 +8,22 @@ body{
       font-weight: 800;
       font-style: normal;
       font-variation-settings:
-        "wdth" 100;
+        "width" 100;
     }
-      }
-
+  }
+  .section-title{
+    color: #181818 ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  /*nav styles*/
 nav{ 
     display: flex;
     justify-content: space-between;
@@ -52,14 +65,43 @@ nav{
     color: #474747;
    }
      
-   .top{
-    background-color: black;
+   .header{
+    background-color:FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
    }
    .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
    }
    .banner .picture{
     width: 500px;
+   }
+   .banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+   }
+   .banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+   }
+   .description{
+    margin-top: 5px;
+   }
+   /*main section styles*/
+
+   /*about section styles*/
+   .about{
+    padding: 130px;
+    border-radius:10px ;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
    }
